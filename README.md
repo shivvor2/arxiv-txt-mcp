@@ -31,9 +31,8 @@ An MCP server for [arxiv-txt.org](https://arxiv-txt.org), providing LLM-friendly
 
 2.  **Install dependencies:**
     ```bash
-    pip install -r requirements.txt
+    pip install -r .
     ```
-    *(Note: Ensure `requirements.txt` includes `fastmcp`, `requests`, and `python-dotenv`)*
 
 3.  **(Optional) Configure for a self-hosted instance:**
     Create a `.env` file in the root directory to specify a custom `arxiv-txt` URL:
