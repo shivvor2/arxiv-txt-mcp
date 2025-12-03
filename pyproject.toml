@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "arxiv-txt-mcp"
+version = "0.1.0"
+description = "A simple server to fetch arXiv papers and return them as text."
+authors = [
+  { name = "shivvor2", email = "jzloo11111@gmail.com" },
+]
+license = { file = "LICENSE" }
+dependencies = [
+    "fastmcp",
+    "requests",
+    "python-dotenv",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/shivvor2/arxiv-txt-mcp"
+"Bug Tracker" = "https://github.com/shivvor2/arxiv-txt-mcp/issues"
